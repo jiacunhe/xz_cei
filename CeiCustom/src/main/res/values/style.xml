@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- sina weibo -->
+   	<style name="ContentOverlay" parent="android:style/Theme.Dialog">
+		<item name="android:windowNoTitle">true</item>
+		<item name="android:windowIsTranslucent">true</item>
+		<item name="android:windowBackground">@color/full_transparent</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
+        <item name="android:windowContentOverlay">@null</item> 
+        <item name="android:backgroundDimEnabled">false</item>
+	</style>
+	<style name="yangshi_1">
+		<item name="android:textSize">28px</item>
+		<item name="android:textColor">#054b93</item>
+		<item name="android:maxLength">7</item>
+		<item name="android:maxLines">1</item>
+	</style>
+	<style name="yangshi_2">
+		<item name="android:textSize">18px</item>
+		<item name="android:textColor">#3d3d3f</item>
+		<item name="android:maxLength">20</item>
+		<item name="android:maxLines">1</item>
+	</style>
+	<style name="yangshi_3">
+		<item name="android:textSize">24px</item>
+		<item name="android:maxLength">4</item>
+		<item name="android:maxLines">1</item>
+	</style>
+	<style name="yangshi_4">
+		<item name="android:textSize">24px</item>
+	</style>
+	<style name="yangshi_5">
+		<item name="android:textSize">28px</item>
+		<item name="android:textColor">#000000</item>
+		<item name="android:maxLength">8</item>
+		<item name="android:maxLines">1</item>
+	</style>
+	<style name="yangshi_pad_title">
+		<item name="android:textSize">30px</item>
+		<item name="android:textColor">#ffffff</item>
+	</style>
+	<style name="yangshi_phone_title_big">
+		<item name="android:textSize">30px</item>
+		<item name="android:textColor">#ffffff</item>
+	</style>
+	<style name="yangshi_phone_title_small">
+		<item name="android:textSize">24px</item>
+		<item name="android:textColor">#ffffff</item>
+	</style>
+	<style name="AppTheme" parent="android:Theme.Light" />
+
+    <style name="pad_image_padding">
+        <item name="android:padding">3dp</item>
+        <item name="android:background">#ffffff</item>
+    </style>
+
+    <style name="pad_study_bt">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_width">57dp</item>
+        <item name="android:layout_height">33dp</item>
+        <item name="android:background">@drawable/pad_study_bt_bg</item>
+    </style>
+
+    <style name="pad_study_h1">
+        <item name="android:textColor">#054b93</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="pad_study_h1_small">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="pad_study_h1_small2">
+        <item name="android:textColor">#b5b5b5</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="pad_study_h2">
+        <item name="android:background">@drawable/pad_study_det_h2_bg</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:padding">3dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="pad_study_text">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="pad_study_Tab">
+        <item name="android:background">@drawable/pad_study_tab_bg2</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="pad_study_bottom_tv">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:background">@drawable/pad_study_bottom_tv_bg</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:layout_marginRight">0.5dp</item>
+        <item name="android:layout_marginLeft">0dp</item>
+        <item name="android:textSize">25sp</item>
+    </style>
+
+    <style name="Spinner">
+        <item name="android:indeterminate">true</item>
+        <item name="android:indeterminateDrawable">@drawable/padspinner</item>
+        <item name="android:indeterminateDuration">2000</item>
+        <item name="android:indeterminateOnly">true</item>
+    </style>
+</resources>
